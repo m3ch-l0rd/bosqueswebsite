@@ -67,5 +67,10 @@
 	.supplylink	{
 		text-align: right;
 		}
-
+	.iframe1 {
+		height: 200px;
+	}
+	.pdiv {
+		width: 50%;
+	}
 
