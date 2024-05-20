@@ -1,57 +1,60 @@
+/* By Forrest Perez - Originally created for my portfolio page May 2024 */
+
+
 	body	{
 		
-		background-color: #212121;
+		background-color: #212121; /* 'body' so literally the whole damn page under the 'head' */
 		color: #39ff14;
 		font-family: Helvetica;
-		border: 5px #39ff14;
+		border: 5px #39ff14; /* So far I cant see my border ?? */
 		
 		
 		}
-	p {
+	p {				/* all paragraph - are given padding and increased font size here - not so sure about the result of the padding  */
 		font-size: 1.25em;
 		padding: 10px;
 		
 		}
-	a {
+	a {					/* My anchors - all of them - are given neon green color to matcht the rest of the text on the page, instead of the purple bulshit that is default for anchor */
 		color: #39ff14;
 		}
-	a:hover{
+	a:hover{			/* when you hover over my anchor 'buttons' they change yellow - works */
 		color: yellow;
 		}
 	
-	h2	{
+	h2	{				/* all of my h2's have underline and are centered - works well - with some padding - i use h2 for titles of my main sections */
 		text-decoration-line: underline;
 		text-align: center;
 		padding: 10px;
 		}
 	
-	#div1	{
+	#div1	{			/* div1 does nothing ... but divide from div 2 i suppose ... might not be doing much  ok ok , the bg color is not doing sht, but this is centering my anchor buttons...*/
 		background-color:#212121;
 		display: flex;
 		align-items: center;
 		
 	}
 	
-	.img1, .phalf {
+	.img1, .phalf { 		/* img1 class works to center some large single images......'phalf' may be obsolete */
 	display: flex;
 	justify-content: center;
 		
 	}
 	
-	#div1half, #support_links, .doesitwork {
-		display: flex;
+	#div1half, #support_links, .doesitwork {	/*div1half class may be obsolete... can some of these be combined ... flex, center, and align items... hmn justify content center vs space between i guess .. */
+		display: flex;				/* does it work class does its fcking job - part of the text side by side with images magic */
 		align-items: center;
 		justify-content: space-between;
 		}
 		
-	.div2 {
+	.div2 {				/*the mechanix section - i just had to make different for some reason ....*/
 		background-color:black;
 		color:white;
 	}
 	
 	
 		
-	.item	{
+	.item	{		/*item, part, and supplylink, create the table for servo man parts list.... they do what they need to do i might want to put the whole parts list in a div shrink and centr it..*/
 		display: inline_block;
 		}
 		
@@ -62,10 +65,14 @@
 	.supplylink	{
 		text-align: right;
 		}
-	.iframe1 {
+	
+
+	.iframe1 { 			/*does what it needs to do for sizing the iframe windows - more experimentation needed for mobile functionality*/
 		height: 250px;
 	}
-	.pdiv {
+	
+
+	.pdiv {			/* - mother damn bitch - images side by side with text, was acting retarded until i gave container divs of both  elements a class with width for 50% */
 		width: 50%;
 	}
 
