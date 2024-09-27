@@ -76,10 +76,10 @@
 		width: 50%;
 	}
 
-	#dS {
+	#dS, #lN {
 	text-align: center;
 	}
-	#dragonSlayer {
+	#dragonSlayer, #luckyNum {
 	color: red;
 	
 	}
